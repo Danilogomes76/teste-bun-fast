@@ -21,7 +21,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: TypeScript check
-        run: yarn tsc --noEmit
+        run: npx tsc --noEmit
 
       - name: Build
         run: yarn build
