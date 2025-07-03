@@ -9,6 +9,12 @@ const fastify = Fastify({
 
 // Declare a route
 fastify.get("/", function (request, reply) {
+
+  const casa = "cs"
+
+
+  casa = 32
+
   reply.send({ hello: "world" });
 });
 
